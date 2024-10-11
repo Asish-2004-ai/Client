@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm install",
+    "build": "vite build",   
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "node ./dist/index.html"
+    "start": "vite preview", 
+    "render-start": "vite build && vite preview" 
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
