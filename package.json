@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite ./dist",
+    "dev": "vite",
     "build": "npm install -g vite && npm install && vite build",   
     "lint": "eslint .",
     "preview": "vite preview",
