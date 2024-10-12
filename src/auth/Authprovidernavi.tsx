@@ -12,9 +12,9 @@ const Authprovidernavi = ({ children }: Props) => {
 
     // const { createUser } = createUserRegister();
     const domain = "dev-zf5e8av4e6h0kw1h.us.auth0.com"; 
-    const clientId = "eIdiYmCHlraaplKAHicxMOT7YCgAazk0";
-    const redirecturi = "https://food-delivery-app-oigi.onrender.com";
-    const audience = "My Project";
+    const clientId = "9Td76v935SLHeTbLWjk9xXV96jXxXOQ8";
+    const redirecturi = "https://kaleidoscopic-granita-513e6f.netlify.app";
+    const audience = "My Food-Delivery Project";
 
     if (!domain || !clientId || !redirecturi ||!audience ) {
         throw new Error("Unable to configure Auth0");
