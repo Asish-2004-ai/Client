@@ -12,9 +12,9 @@ const Authprovidernavi = ({ children }: Props) => {
 
     // const { createUser } = createUserRegister();
     const domain = "dev-zf5e8av4e6h0kw1h.us.auth0.com"; 
-    const clientId = "sk47iSyTyaZjULQmrZ1v8Lt9lHHYL0Jt";
+    const clientId = "eIdiYmCHlraaplKAHicxMOT7YCgAazk0";
     const redirecturi = "https://food-delivery-app-oigi.onrender.com";
-    const audience = "Food-Delivery App";
+    const audience = "My Project";
 
     if (!domain || !clientId || !redirecturi ||!audience ) {
         throw new Error("Unable to configure Auth0");
