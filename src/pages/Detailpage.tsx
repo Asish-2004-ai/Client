@@ -4,6 +4,7 @@ import CardItem from "@/components/CardItem";
 import CheckOut from "@/components/CheckOut";
 import RestaurantInfo from "@/components/RestaurantInfo";
 import RestaurantMenuItem from "@/components/RestaurantMenuItem";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Card, CardFooter } from "@/components/ui/card";
 import { userFormData } from "@/form/UserForm";
 import { menuItem } from "@/type";
@@ -102,11 +103,13 @@ const Detailpage = () => {
 
 
 
-      <img
+     <AspectRatio ratio={16 / 5}>
+     <img
         src={Result.imageUrl}
         alt="Restaurant"
         className="object-cover rounded-md h-full w-full"
       />
+     </AspectRatio>
 
       <div className="grid grid-cols-1 md:grid-cols-[4fr_2fr] mx-10 gap-5 md:px-34">
         <div className="flex flex-col gap-4">
