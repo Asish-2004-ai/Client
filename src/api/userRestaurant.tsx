@@ -26,7 +26,7 @@ export const getUserRestaurant = () => {
     return response.json()
   }
 
-  const { data: currentRestaurant, isLoading } = useQuery("Fetch restaurant", getRestaurant,{refetchInterval:5000})
+  const { data: currentRestaurant, isLoading } = useQuery("Fetch restaurant", getRestaurant)
   return { currentRestaurant, isLoading }
 }
 
